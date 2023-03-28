@@ -1,2 +1,0 @@
-# GrizzBox
-baby elephant
