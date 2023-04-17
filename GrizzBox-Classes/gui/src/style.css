@@ -1,11 +1,11 @@
 .background{
     -fx-background-image: url("https://i.imgur.com/oplCvME.png");
-    -fx-background-repeat: stretch;   
+    -fx-background-repeat: stretch;
     -fx-background-size: 600 500;
     -fx-background-position: center center;
 }
 .start{
-    -fx-background-image: url("https://i.imgur.com/zLBDqtU.png");
+    -fx-background-image: url("https://i.imgur.com/XB6D4YJ.png");
     -fx-background-repeat: stretch;
     -fx-background-size: 600 500;
     -fx-background-position: center center;
@@ -22,3 +22,11 @@
             -fx-background-size: 600 500;
             -fx-background-position: center center;
 }
+.score{
+            -fx-background-image: url("https://i.imgur.com/8K9d3Q4.png");
+            -fx-background-repeat: stretch;
+            -fx-background-size: 600 500;
+            -fx-background-position: center center;
+}
+
+

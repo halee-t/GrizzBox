@@ -65,6 +65,22 @@ public class Responses {
             e.printStackTrace();
         }
     }
+    public void writeRoundWinner(int i){
+        try {
+            String data = " Tutorials Point is a best website in the world";
+            File f1 = new File("RoundWinners.txt");
+            if(!f1.exists()) {
+                f1.createNewFile();
+            }
+
+            FileWriter fileWritter = new FileWriter(f1.getName(),true);
+            BufferedWriter bw = new BufferedWriter(fileWritter);
+            bw.write(i+"\n");
+            bw.close();
+        } catch(IOException e){
+            e.printStackTrace();
+        }
+    }
     public void convertFileresponses() throws FileNotFoundException {
         int i =0;
         fileStringStream = new FileInputStream("Responses.txt");
@@ -73,6 +89,22 @@ public class Responses {
         while(inFS.hasNext()) { //iterates through file until no new text lines exist
             responses[i]=inFS.nextLine();
         }
+    }
+    public String removeAndReturnFirstLine() throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader("Responses.txt"));
+        String firstLine = reader.readLine();
+        String remainingContent = "";
+        String line;
+        while ((line = reader.readLine()) != null) {
+            remainingContent += line + "\n";
+        }
+        reader.close();
+
+        PrintWriter writer = new PrintWriter("Responses.txt");
+        writer.print(remainingContent);
+        writer.close();
+
+        return firstLine;
     }
     public String getResponse(){
         return responses[0];

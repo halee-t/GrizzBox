@@ -16,10 +16,10 @@ public class GrizzBox {
 
     public GrizzBox() throws FileNotFoundException {
         this.prompts=new Prompt();
-        convertFileToCodes();
+        //convertFileToCodes();
 
     }
-    public void convertFileToCodes() throws FileNotFoundException {
+    /*public void convertFileToCodes() throws FileNotFoundException {
         FileInputStream fileStringStream = new FileInputStream("Codes.txt");
         Scanner inFS = new Scanner(fileStringStream); //scanner to read text file
 
@@ -27,13 +27,13 @@ public class GrizzBox {
             codes.add(inFS.nextLine());
         }
         Collections.shuffle(codes); //shuffles array so there is a random order each time
-    }
-    public String getcode() { //returns prompt based off of shuffled arraylist
+    }*/
+    /*public String getcode() { //returns prompt based off of shuffled arraylist
         String c = codes.get(codeIndex);
         codeIndex ++;
 
         return c;
-    }
+    }*/
 
 
 
