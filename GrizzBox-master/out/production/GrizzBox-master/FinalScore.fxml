@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500" prefWidth="600.0" styleClass="score" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Button layoutX="8.0" layoutY="3.0" mnemonicParsing="false" onAction="#EndGame" prefHeight="43.0" prefWidth="132.0" text="New Round" />
+   </children>
+</AnchorPane>
