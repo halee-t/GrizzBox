@@ -14,5 +14,6 @@
       <Label fx:id="sixth" layoutX="238.0" layoutY="439.0" prefHeight="24.0" prefWidth="38.0" />
       <Button fx:id="showLeaderboard" layoutX="484.0" layoutY="12.0" mnemonicParsing="false" onAction="#leaderboard" text="show leaderboard" />
       <Button layoutX="525.0" layoutY="451.0" mnemonicParsing="false" onAction="#returnToMain" prefHeight="50.0" prefWidth="78.0" text="end game" />
+        <Button layoutX="525.0" layoutY="451.0" mnemonicParsing="false" onAction="#endGame" prefHeight="50.0" prefWidth="78.0" text="end game" />   //this is the line halee added in case it breaks lol
     </children>
 </AnchorPane>

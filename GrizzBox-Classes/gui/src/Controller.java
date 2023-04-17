@@ -50,6 +50,7 @@ public class Controller extends Responses{
     public Button vote4;
     public Button vote5;
     public Button vote6;
+    public Button endGame;      //this is a change halee made in case it breaks :)
     public Label voteprompt;
     public Label first= new Label("");
     public Label second= new Label("");
