@@ -1,0 +1,77 @@
+.background{
+    -fx-background-image: url("https://i.imgur.com/EQNL1ET.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 600 500;
+    -fx-background-position: center center;
+}
+.start{
+    -fx-background-image: url("https://i.imgur.com/XB6D4YJ.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 600 500;
+    -fx-background-position: center center;
+}
+.respond{
+            -fx-background-image: url("https://i.imgur.com/lKoJWnD.png");
+            -fx-background-repeat: stretch;
+            -fx-background-size: 600 500;
+            -fx-background-position: center center;
+        }
+.lobby{
+            -fx-background-image: url("https://i.imgur.com/OM95ea8.png");
+            -fx-background-repeat: stretch;
+            -fx-background-size: 600 500;
+            -fx-background-position: center center;
+}
+.score{
+            -fx-background-image: url("https://i.imgur.com/8K9d3Q4.png");
+            -fx-background-repeat: stretch;
+            -fx-background-size: 600 500;
+            -fx-background-position: center center;
+}
+.info{
+            -fx-background-image: url("https://i.imgur.com/i8QhHaF.png");
+            -fx-background-repeat: stretch;
+            -fx-background-size: 600 500;
+            -fx-background-position: center center;
+}
+.button1{
+-fx-background-color : #708f9e;
+
+}
+.button1:hover{
+-fx-background-color : #607d8b;
+
+}
+.buttonSubmit{
+-fx-background-color : #cfab9f;
+
+}
+.buttonSubmit:hover{
+-fx-background-color : #7c625a;
+}
+
+.scoreButton{
+-fx-background-color : #708f9e;
+-fx-background-radius : 30 30 30 30;
+
+
+}
+.scoreButton:hover{
+-fx-background-color : #607d8b;
+-fx-background-radius : 30 30 30 30;
+
+}
+
+
+.voteButton{
+-fx-background-color : #cfa090;
+-fx-background-radius : 30 30 30 30;
+
+}
+.voteButton:hover{
+-fx-background-color : #a68072;
+-fx-background-radius : 30 30 30 30;
+}
+
+
+
